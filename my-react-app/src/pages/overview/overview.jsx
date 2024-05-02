@@ -1,6 +1,6 @@
 import React from 'react'
 
-const overview = () => {
+const Overview = () => {
     return (
         <div>
             <h1>Overview Page</h1>
@@ -8,4 +8,4 @@ const overview = () => {
     )
 }
 
-export default overview
+export default Overview
