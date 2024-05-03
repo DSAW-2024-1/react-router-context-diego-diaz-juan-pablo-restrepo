@@ -14,8 +14,6 @@ const Login = () => {
         return <div>Contexto de autenticación no disponible</div>;
     }
 
-    console.log('Estado de autenticación:', state.isAuthenticated);
-
     const handleLogin = () => {
         if (email === 'admin@admin.com' && password === 'admin') {
             dispatch({ type: 'LOGIN' });
@@ -29,7 +27,7 @@ const Login = () => {
     return (
         <div>
             {state.isAuthenticated ? (
-                <h1>¡Bienvenido de nuevo!</h1>
+                <h1>Login</h1>
             ) : (
                 <div>
                     <form>
@@ -45,7 +43,7 @@ const Login = () => {
                             value={password}
                             onChange={(e) => setPassword(e.target.value)}
                         />
-                        <button onClick={handleLogin}>Iniciar sesión</button>
+                        <button type='button' onClick={handleLogin}>Iniciar sesión</button>
                     </form>
                 </div>
             )}
