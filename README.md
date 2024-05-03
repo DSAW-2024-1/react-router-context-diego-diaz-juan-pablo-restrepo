@@ -3,7 +3,7 @@
 # Desarrollo de Aplicaciones Web
 ## Universidad de La Sabana - 2024 - I
 
-## Pagina web desplegada: react-rc-diaz-restrepo.vercel.app
+## Pagina web desplegada: https://react-rc-diaz-restrepo.vercel.app/login
 
 ### Diego Norberto Diaz Algarin - 0000307595
 
