@@ -1,16 +1,15 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/yGCr2kOI)
 
 # Desarrollo de Aplicaciones Web
+## Universidad de La Sabana - 2024 - I
 
-## NOMBRE_DE_LOS_ESTUDIANTES
+## Pagina web desplegada: https://react-rc.vercel.app/
+
+## NOMBRE DE LOS ESTUDIANTES:
 
 ### Diego Norberto Diaz Algarin - 0000307595
 
 ### Juan Pablo Restrepo Coca - 0000305110
-
-### Universidad de La Sabana
-
-#### 2024 - I
 
 ## Router Seguro con React.js
 
