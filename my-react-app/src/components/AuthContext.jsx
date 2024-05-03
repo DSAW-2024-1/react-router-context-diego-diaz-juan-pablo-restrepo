@@ -1,4 +1,4 @@
-import React, { createContext, useReducer } from 'react';
+import React, { createContext, useReducer, useEffect } from 'react';
 
 // Reducer para gestionar el estado de autenticación
 const authReducer = (state, action) => {
@@ -17,7 +17,15 @@ const AuthContext = createContext();
 
 // Proveedor de contexto
 const AuthProvider = ({ children }) => {
-    const [state, dispatch] = useReducer(authReducer, { isAuthenticated: false });
+    const [state, dispatch] = useReducer(authReducer, { isAuthenticated: localStorage.getItem('isLoggedIn') === 'true', });
+
+    useEffect(() => {
+        if (state.isAuthenticated) {
+            localStorage.setItem('isLoggedIn', 'true');
+        } else {
+            localStorage.removeItem('isLoggedIn');
+        }
+    }, [state.isAuthenticated]);
 
     return (
         <AuthContext.Provider value={{ state, dispatch }}>
