@@ -5,8 +5,6 @@
 
 ## Pagina web desplegada: https://react-rc.vercel.app/
 
-## NOMBRE DE LOS ESTUDIANTES:
-
 ### Diego Norberto Diaz Algarin - 0000307595
 
 ### Juan Pablo Restrepo Coca - 0000305110
